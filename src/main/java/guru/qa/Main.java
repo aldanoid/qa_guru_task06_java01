@@ -15,12 +15,12 @@ public class Main {
         int d = 40;
         byte e = 127;
         byte minValue = Byte.MIN_VALUE;
-        String bigcountry = "Brazil";
-        String smallcountry = "Uruguay";
-        int population = 220000000;
-        int sugarweight = 12;
         double coffeeweight = 2.5;
         double milkweight = 1.3;
+        int sugarweight = 12;
+        int population = 220000000;
+        String bigcountry = "Brazil";
+        String smallcountry = "Uruguay";
 
         // Арифметические операторы + - * / % ++ --
 
