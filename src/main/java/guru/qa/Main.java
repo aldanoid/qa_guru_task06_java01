@@ -22,16 +22,17 @@ public class Main {
         //float varFloat = 0.0F;
         //double varDouble = 0.0;
 
-        // Операторы
-
-        // Арифметические + - * / % ++ --
-
         int a = 120;
         int b = 20;
         int c = 60;
         int d = 40;
         byte e = 127;
         byte minValue = Byte.MIN_VALUE;
+        String bigcountry = "Brazil";
+        String smallcountry = "Uruguay";
+        int population = 220000000;
+
+        // Арифметические операторы + - * / % ++ --
 
         System.out.println("a + b = " + (a + b));
         System.out.println("a - b = " + (a - b));
@@ -43,22 +44,14 @@ public class Main {
         System.out.println("a++ = " +  (a++));
         System.out.println("++a = " +  (++a));
 
-        //Переполнение
-        System.out.println("++e = " +  (byte)(++e));
-        System.out.println("minValue - 1 : " + (byte)(minValue - 1));
-
-        //Операторы сравнения
+        //Операторы сравнения == , != , > , < , >= , <=
 
         System.out.println("a == b : " + (a == b));
         System.out.println("a != b : " + (a != b));
         System.out.println("a > b : " + (a > b));
         System.out.println("a >= b : " + (a >= b));
 
-
         // Логические операторы &&(&)  ||(|) , !
-        String bigcountry = "Brazil";
-        String smallcountry = "Uruguay";
-        int population = 220000000;
 
         System.out.println(bigcountry.equals("Brazil") && population == 220000000);
         System.out.println(bigcountry.equals("Uruguay") && population == 220000000);
@@ -67,6 +60,11 @@ public class Main {
         System.out.println(bigcountry.equals("Uruguay") || population == 100000000 || smallcountry.equals("Uruguay"));
 
         System.out.println(!(bigcountry.equals("Brazil") && smallcountry.equals("Uruguay")));
+
+        //Переполнение
+
+        System.out.println("++e = " +  (byte)(++e));
+        System.out.println("minValue - 1 : " + (byte)(minValue - 1));
 
     }
 
