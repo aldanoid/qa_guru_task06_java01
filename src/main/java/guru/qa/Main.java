@@ -56,9 +56,17 @@ public class Main {
 
 
         // Логические операторы &&(&)  ||(|) , !
-        //String name = "Lol";
-        //int age = ;
+        String bigcountry = "Brazil";
+        String smallcountry = "Uruguay";
+        int population = 220000000;
 
+        System.out.println(bigcountry.equals("Brazil") && population == 220000000);
+        System.out.println(bigcountry.equals("Uruguay") && population == 220000000);
+
+        System.out.println(bigcountry.equals("Uruguay") || population == 220000000);
+        System.out.println(bigcountry.equals("Uruguay") || population == 100000000 || smallcountry.equals("Uruguay"));
+
+        System.out.println(!(bigcountry.equals("Brazil") && smallcountry.equals("Uruguay")));
 
     }
 
