@@ -9,19 +9,6 @@ public class Main {
         // посмотреть результаты (вывести в консоль)
         //2) попробовать вычисления комбинаций типов данных (int и double)
 
-        // Примитивные типы данных
-        //boolean isNameIvan = false;
-        //Boolean isName = false;
-        //boolean unbox = isName;
-
-        //byte varByte = 0;  // -128 ... 127
-        //short varShort = 0; // -32768 ... 32767
-        //int varInt = 0; // -2147483648 ... 2147483647
-        //long varLong = 0; //
-        //char varChar = '0';
-        //float varFloat = 0.0F;
-        //double varDouble = 0.0;
-
         int a = 120;
         int b = 20;
         int c = 60;
