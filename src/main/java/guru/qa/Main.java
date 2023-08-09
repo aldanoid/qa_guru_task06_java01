@@ -31,6 +31,9 @@ public class Main {
         String bigcountry = "Brazil";
         String smallcountry = "Uruguay";
         int population = 220000000;
+        int sugarweight = 12;
+        double coffeeweight = 2.5;
+        double milkweight = 1.3;
 
         // Арифметические операторы + - * / % ++ --
 
@@ -66,11 +69,7 @@ public class Main {
         System.out.println("++e = " +  (byte)(++e));
         System.out.println("minValue - 1 : " + (byte)(minValue - 1));
 
-        //
-
-        int sugarweight = 12;
-        double coffeeweight = 2.5;
-        double milkweight = 1.3;
+        //Вычисления комбинаций типов данных (int и double)
 
         System.out.println("sugarweight + coffeeweight = " + (sugarweight + coffeeweight));
         System.out.println("sugarweight - coffeeweight = " + (sugarweight - coffeeweight));
