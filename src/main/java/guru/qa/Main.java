@@ -66,6 +66,17 @@ public class Main {
         System.out.println("++e = " +  (byte)(++e));
         System.out.println("minValue - 1 : " + (byte)(minValue - 1));
 
+        //
+
+        int sugarweight = 12;
+        double coffeeweight = 2.5;
+        double milkweight = 1.3;
+
+        System.out.println("sugarweight + coffeeweight = " + (sugarweight + coffeeweight));
+        System.out.println("sugarweight - coffeeweight = " + (sugarweight - coffeeweight));
+        System.out.println("sugarweight + coffeeweight = " + (sugarweight * coffeeweight));
+        System.out.println("sugarweight + coffeeweight = " + (sugarweight / coffeeweight));
+        System.out.println("coffeeweight + milkweight = " + (coffeeweight + milkweight));
     }
 
 }
